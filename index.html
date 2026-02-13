@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ucapan Valentine - Rean</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fecfef, #ffecd2);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+            position: relative;
+            cursor: pointer;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .header {
+            font-size: 2em;
+            color: #e91e63;
+            margin-bottom: 20px;
+        }
+        .message {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .footer {
+            font-size: 1.2em;
+            color: #e91e63;
+            font-weight: bold;
+        }
+        .hearts {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .heart {
+            position: absolute;
+            color: #ff4081;
+            font-size: 2em;
+            animation: fall 5s linear infinite;
+        }
+        .heart:nth-child(1) { left: 10%; animation-delay: 0s; }
+        .heart:nth-child(2) { left: 20%; animation-delay: 1s; }
+        .heart:nth-child(3) { left: 30%; animation-delay: 2s; }
+        .heart:nth-child(4) { left: 40%; animation-delay: 3s; }
+        .heart:nth-child(5) { left: 50%; animation-delay: 4s; }
+        .heart:nth-child(6) { left: 60%; animation-delay: 5s; }
+        .heart:nth-child(7) { left: 70%; animation-delay: 6s; }
+        .heart:nth-child(8) { left: 80%; animation-delay: 7s; }
+        .heart:nth-child(9) { left: 90%; animation-delay: 8s; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fall {
+            from { transform: translateY(-100vh); }
+            to { transform: translateY(100vh); }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="hearts">
+            <div class="heart">❤️</div>
+            <div class="heart">💖</div>
+            <div class="heart">❤️</div>
+            <div class="heart">💖</div>
+            <div class="heart">❤️</div>
+            <div class="heart">💖</div>
+            <div class="heart">❤️</div>
+            <div class="heart">💖</div>
+            <div class="heart">❤️</div>
+        </div>
+        <div class="header">
+            💖 Happy Valentine's Day 💖
+        </div>
+        <div class="message">
+            Dear my love,<br><br>
+            Haiii sayangg, happy valentine dayss yaa🤍, semoga kamu makin sayang akuh dan aku juga sayang kamu bangett lah pokoke, mungkin aku mau bilang untuk kesekian kalinya lagi makasih udah mau menjalin hubungan ini lagi padahal kita sama sama tau apa yang akan terjadi but I don't think about it anymore, aku yakin semua ini bisa dilalui dan masih banyak hal-hal yang aku bisa penuhi untuk kamu maaff yaa, aku akan selalu usahain lagi okeeyy, last for me jangan bosen” sama aku, jangan berpaling dari aku yaa, makin sayang sama aku, dan bilang apa aja yang kamu mau dari aku jika aku bisa aku akan penuhi, love youu more sayangnya akuhh
+        </div>
+        <div class="footer">
+            With all my love,<br>
+            Rean
+        </div>
+    </div>
+</body>
+</html>
